@@ -15,4 +15,15 @@ Several data inputs are included:
 
 Several outputs are included: 
 
-1. 
+1. All the impactsclassified as dust with the convolutional network developed at UiT, see  [ML_dust_detection](https://github.com/AndreasKvammen/ML_dust_detection). Both waveforms (*\997_data\solo_features\plots\waveforms_minimal*) and the spectra (*\997_data\solo_features\plots\spectra*). These are produced with *ag2023_feature_extraction.py*, either individually, or making use of *Snakefile*. 
+
+2. All the statistical files, used in paper to describe the features of the impacts. Placed in *\998_generated\solo_statistics*, produced with *ag2023_delay_plots.py*. A pre-requisite for that is the presence of *.npz* files in *\997_data\solo_features*, produced individually with *ag2023_feature_extraction.py* or in batch, making use of *Snakefile*. Another pre-requisite is the presence of */997_data/solo_eui/eui_stats.csv*, produced with *ag2023_vuv_aggregate.py*. 
+
+3. frequency calibration TBD
+
+4. Sampling histogram vootage ratios TBD
+
+
+The workflow:
+
+TBD
