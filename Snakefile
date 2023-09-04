@@ -21,7 +21,7 @@ rule all:
         expand(stats_pattern, sample=datafiles)
     shell:
         """
-        python 003_solar_orbiter/solo_delay_plots.py
+        python ag2023_delay_plots.py
         """
 
 # Define the rule for generating statistics
@@ -33,5 +33,5 @@ rule generate_stats:
     conda: 'environment.yml'
     shell:
         """
-        python 003_solar_orbiter/solo_feature_extraction.py {input.data} {output.stats}
+        python ag2023_feature_extraction.py {input.data} {output.stats}
         """
