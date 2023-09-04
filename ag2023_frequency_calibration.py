@@ -15,14 +15,14 @@ def hipass_correction(signal,epochstep,cutoff=200):
     cumsignal = np.cumsum(signal)
     return signal + (2*np.pi*cutoff)*(cumsignal*epochstep)
 
-YYYYMMDD = "20210207"
+YYYYMMDD = "20210305"
 waveform = fetch(YYYYMMDD,
                  '/997_data/solo_rpw/tds_wf_e',
                  "tds_wf_e",
                  "_rpw-tds-surv-tswf-e-cdag_",
                  ["V04.cdf","V03.cdf","V02.cdf","V01.cdf"],
                  True)
-i=332   #1, 19, 20, 126, 143, 175, 214
+i=40 
 channel = 0
 irange = np.arange(0,16384,1)
 cutoff = 370
