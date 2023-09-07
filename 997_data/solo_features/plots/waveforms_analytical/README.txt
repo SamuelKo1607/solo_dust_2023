@@ -1,0 +1,1 @@
+The ones with red background are not included in the plots produced by ag2023_delay_plots.py, since they do not meet the quality criteria as described in the paper (Sec. 2.3 Features Extraction). The reason of disqualification is written above the plot in such case ("neg" / "saturated" / etc.).
