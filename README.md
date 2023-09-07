@@ -1,5 +1,8 @@
 # Impact Ionization Double Peaks Analyzed in High Temporal Resolution on Solar Orbiter
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8325050.svg)](https://doi.org/10.5281/zenodo.8325050)
+
+
 This is a public archive of the code and, to some extent, the data, used in the article: Impact Ionization Double Peaks Analyzed in High Temporal Resolution on Solar Orbiter. 
 
 ## The workflow:
